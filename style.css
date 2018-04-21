@@ -8,3 +8,10 @@ html, body {
 	margin: 0;
 	background: black;
 }
+
+h1 {
+	color: white;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 10rem;
+}
