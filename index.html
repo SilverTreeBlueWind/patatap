@@ -168,6 +168,7 @@
 		var circles = [];
 		function onKeyDown(event) {
 			if (keyData[event.key]) {
+				document.querySelector('h1').style.display = 'none';
 				keyData[event.key].sound.play();
 				var maxPoint = new Point(view.size.width, view.size.height);
 				var randomPoint = Point.random();
@@ -192,6 +193,7 @@
 	</script>
 </head>
 <body>
+	<h1>Press any letter key to start</h1>
 	<canvas id="myCanvas"></canvas>
 </body>
 </html>
